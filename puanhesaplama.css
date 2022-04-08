@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ders {
+    display: flex;
+    flex-direction: row;
+}
+
+.dersadi {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+label {
+    margin-top: 2.5px;
+}
+
+.buton {
+    background: blue;
+    padding: 10px;
+    color: white;
+}
+
+button {
+    background: gray;
+    padding: 10px;
+    color: white;
+}

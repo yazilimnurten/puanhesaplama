@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="puanhesaplama.css">
+</head>
+
+<body>
+    <div class="header">
+
+        <div class="ders">
+            <div class="dersadi">
+                <label>Ders Adı</label>
+                <input type="text" name="" id="" value="1.ders">
+                <input type="text" name="" id="" value="2.ders">
+                <input type="text" name="" id="" value="3.ders">
+                <input type="text" name="" id="" value="4.ders">
+                <input type="text" name="" id="" value="5.ders">
+                <input type="text" name="" id="" value="6.ders">
+                <input type="text" name="" id="" value="7.ders">
+                <input type="text" name="" id="" value="8.ders">
+                <input type="text" name="" id="" value="9.ders">
+                <input type="text" name="" id="" value="10.ders">
+            </div>
+            <div class="dersadi">
+                <label>Kredi sayısı</label>
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+                <input type="text" name="" id="">
+            </div>
+            <div class="dersadi">
+                <label>Ara Sınav Notu</label>
+                <input type="text" name="" id="ara_not" oninput="hesapla()">
+                <input type="text" name="" id="ara_not1" oninput="hesapla1()">
+                <input type="text" name="" id="ara_not2" oninput="hesapla2()">
+                <input type="text" name="" id="ara_not3" oninput="hesapla3()">
+                <input type="text" name="" id="ara_not4" oninput="hesapla4()">
+                <input type="text" name="" id="ara_not5" oninput="hesapla5()">
+                <input type="text" name="" id="ara_not6" oninput="hesapla6()">
+                <input type="text" name="" id="ara_not7" oninput="hesapla7()">
+                <input type="text" name="" id="ara_not8" oninput="hesapla8()">
+                <input type="text" name="" id="ara_not9" oninput="hesapla9()">
+            </div>
+            <div class="dersadi">
+                <label>Dönem Sonu Notu</label>
+                <input type="text" name="" id="donem_not" oninput="hesapla()">
+                <input type="text" name="" id="donem_not1" oninput="hesapla1()">
+                <input type="text" name="" id="donem_not2" oninput="hesapla2()">
+                <input type="text" name="" id="donem_not3" oninput="hesapla3()">
+                <input type="text" name="" id="donem_not4" oninput="hesapla4()">
+                <input type="text" name="" id="donem_not5" oninput="hesapla5()">
+                <input type="text" name="" id="donem_not6" oninput="hesapla6()">
+                <input type="text" name="" id="donem_not7" oninput="hesapla7()">
+                <input type="text" name="" id="donem_not8" oninput="hesapla8()">
+                <input type="text" name="" id="donem_not9" oninput="hesapla9()">
+            </div>
+            <div class="dersadi">
+                <label> Başarı notu </label>
+
+                <label id="ort_hesapla">0</label>
+                <label id="ort_hesapla1"> 0</label>
+                <label id="ort_hesapla2">0</label>
+                <label id="ort_hesapla3">0 </label>
+                <label id="ort_hesapla4"> 0</label>
+                <label id="ort_hesapla5"> 0</label>
+                <label id="ort_hesapla6">0</label>
+                <label id="ort_hesapla7">0</label>
+                <label id="ort_hesapla8">0</label>
+                <label id="ort_hesapla9">0 </label>
+
+            </div>
+            <div class="dersadi">
+                <label>Harf Karşılığı </label>
+
+                <label id="sonuc">FF</label>
+                <label id="sonuc1"> FF</label>
+                <label id="sonuc2">FF</label>
+                <label id="sonuc3">FF </label>
+                <label id="sonuc4"> FF</label>
+                <label id="sonuc5"> FF</label>
+                <label id="sonuc6">FF</label>
+                <label id="sonuc7">FF</label>
+                <label id="sonuc8">FF</label>
+                <label id="sonuc9">FF </label>
+
+            </div>
+            <div class="dersadi">
+                <label>Kat sayı Karşılığı </label>
+
+                <label>0.00</label>
+                <label> 0.00</label>
+                <label>0.00</label>
+                <label>0.00 </label>
+                <label> 0.00</label>
+                <label> 0.00</label>
+                <label>0.00</label>
+                <label>0.00</label>
+                <label>0.00</label>
+                <label>0.00 </label>
+
+            </div>
+            <div class="dersadi">
+                <label>Sonuç </label>
+
+                <label id="derece">KALDI</label>
+                <label id="derece1"> KALDI</label>
+                <label id="derece2">KALDI</label>
+                <label id="derece3">KALDI</label>
+                <label id="derece4"> KALDI</label>
+                <label id="derece5"> KALDI</label>
+                <label id="derece6">KALDI</label>
+                <label id="derece7">KALDI</label>
+                <label id="derece8">KALDI</label>
+                <label id="derece9">KALDI </label>
+
+            </div>
+        </div>
+        <button class="buton">HESAPLA</button>
+        <button>TEMİZLE</button>
+    </div>
+    </div>
+
+
+
+
+
+    <script src="puanhesaplama.js"></script>
+</body>
+
+</html>
